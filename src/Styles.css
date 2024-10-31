@@ -1,0 +1,233 @@
+.App {
+  position: relative;
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+}
+
+iframe {
+  border-radius: 20px;
+}
+
+.chart-container {
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+label {
+  margin-right: 20px;
+}
+
+select {
+  padding: 10px;
+  width: 100%;
+  font-size: 15px;
+  color: white;
+  border: 1px solid #6a7485;
+  border-radius: 4px;
+  background-color: #6a7485;
+}
+
+/* Style the select element when it's focused */
+select:focus {
+  outline: none;
+  border-color: #a0a7b4;
+}
+
+/* Style the option elements */
+option {
+  padding: 5px;
+  font-size: 15px;
+}
+
+.font-roboto {
+  font-family: "Roboto", sans-serif;
+}
+
+.nav-card {
+  display: inline-flex;
+  margin-left: 50px;
+  align-items: center;
+  width: 19%;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.stats-card {
+  display: inline-flex;
+  margin-left: 50px;
+  margin-top: 30px;
+  align-items: center;
+  width: 26.5%;
+  padding: 20px;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  box-shadow: 10px 9px 17px 0px rgba(0, 0, 0, 0.5);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.stats-card:hover {
+  transform: scale(1.05); /* Enlarge the card on hover */
+  box-shadow: 12px 11px 21px 0px rgba(0, 0, 0, 0.7); /* Adjust the shadow on hover */
+}
+
+.stats-card img {
+  margin-right: 10px;
+}
+
+#cluster-card {
+  background-color: green;
+}
+
+#light-card {
+  background-color: rgb(223, 193, 28);
+}
+
+#faulty-card {
+  background-color: red;
+}
+
+.nav-container.search-open .nav-item.search-icon {
+  display: none;
+}
+
+.nav-container.search-open .search-panel.active {
+  display: flex;
+}
+
+/* Common styles for both panels */
+.nav-container {
+  display: flex;
+  align-items: center;
+  background-color: #1c2229;
+  padding: 5px;
+}
+
+.nav-panel {
+  display: flex;
+  align-items: center;
+}
+
+.nav-item {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  color: white;
+  cursor: pointer;
+}
+
+.search-icon img {
+  margin-left: 1580px;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+/* Styles for the search panel */
+.search-panel {
+  display: none;
+  align-items: center;
+  flex-grow: 1;
+}
+
+#search-input {
+  width: 280px;
+  margin-left: 1345px;
+  padding: 8px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+}
+
+.content {
+  margin-left: 303px;
+  padding: 20px;
+  background-color: #29323c;
+  color: white;
+  width: 82.16vw;
+  height: 89.7vh;
+  overflow: hidden;
+}
+
+.side-panel {
+  margin: 0;
+  position: absolute;
+  padding: 20px;
+  width: 13%;
+  height: 88.1%;
+  border: 8px solid #242730;
+  background-color: #242730;
+}
+
+.draggable-panel {
+  position: absolute;
+  bottom: 50px;
+  right: 50px;
+  width: 205px;
+  height: 230px;
+  background-color: #242730;
+  border: 4px solid #242730;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  color: white;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  z-index: 99;
+  cursor: grab;
+}
+
+/* Header styles */
+.head {
+  padding: 20px;
+  margin: 0;
+  width: 100%;
+  border-radius: 10px;
+  background-color: #29323c;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  position: relative;
+  left: -20px;
+  top: -20px;
+}
+
+.head div {
+  color: #1fbad6;
+}
+
+/* Panel button styles */
+.panels-button {
+  display: inline-block;
+  width: 100%;
+  padding: 10px 20px;
+  margin-bottom: 5px;
+  background-color: #6a7485;
+  border: none;
+  border-radius: 7px;
+  position: relative;
+  left: -20px;
+  top: -30px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.panels-button:hover {
+  background-color: #a0a7b4;
+}
+
+/* Panel item styles */
+.panels-item {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #fff;
+}
+
+.panels-item img {
+  margin-right: 10px;
+  max-width: 27px;
+  max-height: 27px;
+}
