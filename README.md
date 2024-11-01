@@ -18,3 +18,33 @@ DynaLight is an interactive dashboard application designed for managing and visu
 - **Plotly.js & react-plotly.js**: Data visualization libraries for complex charting.
 - **Styled Components**: For modular and reusable component styling.
 - **SWR**: For efficient data fetching and caching.
+
+## Getting Started
+
+1. **Clone the Repository**:
+
+   ```bash
+   git clone https://github.com/your-username/DynaLight.git
+   cd DynaLight
+   ```
+
+2. **Install Dependencies**:
+   Make sure Node.js and npm are installed, then run:
+
+   ```bash
+   npm install --legacy-peer-deps
+   ```
+
+3. **Environment Variables**:
+   Create a `.env` file in the root directory with your API token for Mapbox:
+
+   ```plaintext
+   REACT_APP_API_TOKEN=your_mapbox_token
+   ```
+
+4. **Run the Application**:
+   ```bash
+   set NODE_OPTIONS=--openssl-legacy-provider
+   npm start
+   ```
+   The app should be available at `http://localhost:3000`.
