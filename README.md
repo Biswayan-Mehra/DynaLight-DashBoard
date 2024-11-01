@@ -24,8 +24,8 @@ DynaLight is an interactive dashboard application designed for managing and visu
 1. **Clone the Repository**:
 
    ```bash
-   git clone https://github.com/your-username/DynaLight.git
-   cd DynaLight
+   git clone https://github.com/Biswayan-Mehra/DynaLight-DashBoard.git
+   cd DynaLight-DashBoard
    ```
 
 2. **Install Dependencies**:
