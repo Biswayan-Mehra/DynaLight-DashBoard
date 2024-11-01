@@ -48,3 +48,9 @@ DynaLight is an interactive dashboard application designed for managing and visu
    npm start
    ```
    The app should be available at `http://localhost:3000`.
+
+## DashBoard Shots:
+
+![DashBoard Image](https://raw.githubusercontent.com/Biswayan-Mehra/DynaLight-DashBoard/refs/heads/main/Images/DashBoard.png)
+
+![MapBoard Image](https://raw.githubusercontent.com/Biswayan-Mehra/DynaLight-DashBoard/refs/heads/main/Images/KeplarGL.png)
